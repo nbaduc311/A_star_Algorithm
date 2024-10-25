@@ -1,15 +1,8 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
-
-#define ROW 10
-#define COL 10
-
-typedef struct Node {
-    int parent_i, parent_j;
-    double f, g, h;
-} Node;
+#include "Maze.h"
 
 Node allNodes[ROW][COL];
 
